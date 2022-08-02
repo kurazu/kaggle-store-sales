@@ -1,0 +1,8 @@
+export GOOGLE_APPLICATION_CREDENTIALS=/home/kurazu/workspace/kaggle-store-sales/creds.json
+export GCP_SERVICE_ACCOUNT=service-account@pipelines-hackathon.iam.gserviceaccount.com
+export GCP_PIPELINE_OUTPUT=gs://pipelines-hackathon/store-sales/tfx_pipeline_output
+export GCP_TRAIN_DATA=gs://pipelines-hackathon/store-sales/input_data/train
+export GCP_INFERENCE_DATA=gs://pipelines-hackathon/store-sales/input_data/test
+export GCP_DOCKER_IMAGE=europe-west4-docker.pkg.dev/pipelines-hackathon/spaceship-titanic/store-sales-image
+export GCP_REGION=europe-west4
+export GCP_PROJECT=pipelines-hackathon

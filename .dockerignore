@@ -1,0 +1,12 @@
+tfx_pipeline_output/
+.gitignore
+.direnv/
+nbs/
+data/
+.pytest_cache/
+.git/
+__pycache__
+.envrc
+Makefile
+README.md
+.mypy_cache
