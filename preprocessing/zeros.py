@@ -1,9 +1,9 @@
-from typing import Sequence
+from typing import Iterable, Sequence
 
 import pandas as pd
 
 
-def count_consecutive_zeros(sequence: Sequence[int]) -> int:
+def count_consecutive_zeros(sequence: Sequence[int]) -> Iterable[int]:
     current = 0
     for i in sequence:
         if i == 0:
